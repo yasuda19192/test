@@ -5,21 +5,114 @@
 html {
     font-size: 16px;
 }
+
+html {
+background-color: #666;
+}
+
 body {
-    width: 980px;
+    background-image: url(https://img.freepik.com/free-photo/white-wooden-texture-flooring-background_53876-63634.jpg?t=st=1725502469~exp=1725506069~hmac=4eb33e45c10eebeca8a1324d2040f5bbd22f46cc9039cc05598ad2f0c4c7b73a&w=826);
+    background-repeat: repeat;
+    background-position: center;
+    width: 1200px;
     margin: auto;
 }
+
 header h1 {
     text-align: center;
 }
+
 .containts {
     display: flex;
 }
+
+nav {
+    display: block;
+    border: 1px solid #000;
+}
+
+nav h2 {
+    margin-bottom: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
 main {
+
+    width: 67%;
+    border: 1px solid #000;
 
 }
 
+main .card
+{
+    display: flex;
+    border-right: 1px solid #000;
+
+}
+.card img {
+    width: 50%;
+    margin-right: 0;
+}
 
 
+aside {
+    width: 33%;
+    border: 1px solid #000;
+
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 30%;
+}
+
+.history {
+
+}
+.history li {
+    list-style-type: none;
+    margin-left: 0;
+
+}
+.history li time {
+    margin-right: 3px;
+}
+
+
+footer {
+    border: 1px solid #000;
+}
+
+footer .footer_contents {
+    display: flex;
+    border: 1px solid #000;
+
+}
+
+.contact {
+    width: 50%;
+    border: 1px solid #000;
+
+}
+
+.twitter {
+    width: 50%;
+    border: 1px solid #000;
+
+}
 
 /*基本レイアウト end********************************************************************************************************/
